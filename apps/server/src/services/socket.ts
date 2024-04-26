@@ -13,7 +13,6 @@ class SocketService {
     });
   }
 
-  
 
   public initListeners() {
     const io = this.io;
