@@ -29,7 +29,7 @@ useEffect(()=>{
 },[])
 
 return (
-    <SocketContext.Provider value={null}>
+    <SocketContext.Provider value={sendMessage}>
         {children}
     </SocketContext.Provider>
 )
