@@ -4,17 +4,17 @@ import { Redis } from "ioredis";
 
 
 const pub = new Redis({
-  host: 'redis-3037cbb-dipsundarjana-a109.c.aivencloud.com',
-  port: 14954,
-  username: 'default',
-  password: 'AVNS_PxIFHhJ8fuFeLZSn7l4'
+  host: '',
+  port: ,
+  username: '',
+  password: ''
 })
 
 const sub = new Redis({
-  host: 'redis-3037cbb-dipsundarjana-a109.c.aivencloud.com',
-  port: 14954,
-  username: 'default',
-  password: 'AVNS_PxIFHhJ8fuFeLZSn7l4'
+  host: '',
+  port: ,
+  username: '',
+  password: ''
 })
 
 class SocketService {
